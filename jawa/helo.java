@@ -159,15 +159,15 @@
 //    }
 //}
 
- class Aditya{
-     public static void main(String[] args) {
-         int i = 18;
-         if(i>=20)
-             System.out.println("it is greater than 20");
-         else
-             System.out.println("it is smaller than 20");
-     }
- }
+// class Aditya{
+//     public static void main(String[] args) {
+//         int i = 18;
+//         if(i>=20)
+//             System.out.println("it is greater than 20");
+//         else
+//             System.out.println("it is smaller than 20");
+//     }
+// }
 
 
 
@@ -176,3 +176,116 @@
 
 
 
+
+//  class Aditay{
+//      public static void main(String[] args) {
+//          int a=1;
+//          if (a++ > 1)
+//              System.out.println(a);
+//
+//      }
+//  }
+//
+//
+
+
+//class Aditya{
+//    public static void main(String[] args) {
+//        int a=1;
+//        if (++a>1)
+//        System.out.println(a);
+//    }
+//}
+//class Aditya{
+//    public static void main(String[] args) {
+//        int a=1;
+//        if (a++<=1)
+//            System.out.println(--a);
+//    }
+//}
+//
+//
+//to calculate string length ++=====++++++++++++++++++++++++++++++++++++++++++++++++++
+//
+//String length
+//We can use the length() function to get the length of a string.
+//For eg.
+//
+//String s = "hello";
+//int len = s.length();
+//System.out.println(len);
+//
+//// Output
+//// 5
+//Task
+//Write a program which does the following:
+//
+//Create a variable txt and assign it the text "NumeroTres".
+//Use the length() function to output to the console the number of characters in txt.
+//
+//class Codechef
+//{
+//	public static void main (String[] args)
+//	{
+//        String txt = "NumeroTres";
+//        int len = txt.length();
+//        System.out.println("The length of the word is: " + len);
+//	}
+//}
+
+//
+//find position of string using indexing charAt()++++++++++++++++++++++++++++++++++++++++++++++++
+//
+//Outputting Characters from a String
+//We use the concept of indexing to find the position of a character in a string, which means every character in a string corresponds to a number/position called the index number.
+//
+//        index
+//
+//Note - Indexing always starts from 0 when going left to right.
+//
+//To access the value of a specific character in a string, we refer to the index number, and use the charAt() method.
+//
+//String myString = "Chaf";
+//System.out.println(myString.charAt(2));
+//
+//Output:
+//a
+//
+//String myString = "Chaf";
+//System.out.println(myString.charAt(0));
+//
+//Output:
+//C
+//        Task
+//Write a program which does the following:
+//
+//Create a string variable word and assign the text "Programming" to it.
+//Print the characters o and r (only one) from the string word in separate lines using the syntax defined above.
+//
+//        {
+//public static void main (String[] args)
+//{
+//    String word = "Programming";
+//    // Update your code below this line
+//    System.out.println(word.charAt(2));
+//    System.out.println(word.charAt(4));
+//
+//
+//}
+//}
+
+
+//
+
+import java.util.Arrays;
+
+class Aditya{
+    public static void main(String[] args) {
+
+        int arr[]={2,34,5,6,7};
+        System.out.println(Arrays.toString(arr));
+         for( int num:arr){
+             System.out.println(num);
+         }
+    }
+}
